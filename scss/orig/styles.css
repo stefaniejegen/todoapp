@@ -1,0 +1,49 @@
+/*main*/
+body {
+  margin: 0 auto;
+  max-width: 100%;
+  font-family: sans-serif;
+  color: #27566A; }
+
+.wrapper {
+  width: 400px; }
+
+div {
+  display: block; }
+
+.search {
+  border: none;
+  width: 400px;
+  height: 40px;
+  background: url(../images/search.png) no-repeat right 10px center; }
+
+.scrolldown {
+  text-align: center;
+  height: 40px; }
+
+.aufgaben {
+  padding: 15px;
+  width: 400px;
+  background-color: #78F0CC;
+  height: 70px; }
+  .aufgaben ul {
+    margin: 0;
+    padding: 0; }
+  .aufgaben li {
+    display: inline-block;
+    position: relative;
+    list-style-type: none; }
+
+.tag {
+  padding-left: 310px; }
+
+p {
+  margin: 0;
+  padding: 10px 4px; }
+
+/*detail*/
+div .choosedate {
+  display: inline-block; }
+
+.calendar {
+  border: none; }
