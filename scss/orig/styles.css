@@ -5,21 +5,29 @@ body {
   font-family: sans-serif;
   color: #27566A; }
 
+.offen,
+.erledigt,
+.geloescht {
+  font-size: 18px;
+  padding: 12px; }
+
 .wrapper {
   width: 400px; }
 
-div {
-  display: block; }
+img[src*="search.png"] {
+  display: inline-block;
+  float: right;
+  padding-top: 5px; }
 
 .search {
   border: none;
-  width: 400px;
-  height: 40px;
-  background: url(../images/search.png) no-repeat right 10px center; }
+  width: 350px;
+  height: 40px; }
 
 .scrolldown {
   text-align: center;
-  height: 40px; }
+  height: 40px;
+  position: relative; }
 
 .aufgaben {
   padding: 15px;
@@ -42,7 +50,7 @@ p {
   padding: 10px 4px; }
 
 /*detail*/
-div .choosedate {
+div.choosedate {
   display: inline-block; }
 
 .calendar {
